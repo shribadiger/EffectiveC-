@@ -22,9 +22,9 @@ class AnotherBase{
 		int value;
 		char* name;
 
-		explicit AnotherBase():name("Unknown"),value(0) {
+		/*AnotherBase():name("Unknown"),value(0) {
 			std::cout<<"\n Name: "<<name<<"\n Value: "<<value<<"\n";
-		}
+		}*/
 		explicit AnotherBase(char* iname, int v=0):name(iname),value(v) {
 			std::cout<<"\n Name: "<<name<<"\n Value: "<<value<<"\n";
 		}
